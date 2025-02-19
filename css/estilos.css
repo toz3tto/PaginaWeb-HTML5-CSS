@@ -1,0 +1,128 @@
+/* ================================================== */
+/* Luis Tosetto: Customização CSS. */
+/* ================================================== */
+
+body {
+    margin: 0; /* Remove as margens padrão do navegador */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+    background-color: #ccc; /* Cor de fundo cinza claro */
+}
+
+/* ================================================== */
+/* Seção Hero (Cabeçalho com Imagem de Fundo) */
+/* ================================================== */
+
+.hero {
+    background-image: url(../imagens/bg-5.jpg); /* Imagem de fundo */
+    height: 500px; /* Altura fixa da seção */
+    background-size: cover; /* Cobrir toda a área da seção, cortando a imagem se necessário */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    width: 100%; /* Largura total da página */
+    padding: 1px; /* Padding mínimo para evitar colapsos de margem */
+}
+
+/* Conteúdo dentro da seção Hero */
+.hero-content {
+    margin: 80px auto 0; /* Margem superior de 80px e centralizado horizontalmente */
+    width: 80%; /* Largura do conteúdo (80% da largura do contêiner pai) */
+    text-align: center; /* Alinhamento do texto ao centro */
+    color: white; /* Cor do texto */
+}
+
+/* Título dentro do conteúdo Hero */
+.hero-content h1 {
+    font-size: 56px; /* Tamanho da fonte */
+    text-shadow: 2px 2px 2px black; /* Sombra no texto para melhorar a legibilidade */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+/* Parágrafo dentro do conteúdo Hero */
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com 70% de opacidade */
+    font-size: 18px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto ao centro */
+    display: inline-block; /* Faz o parágrafo se comportar como um bloco inline */
+    padding: 10px; /* Espaçamento interno */
+    border-bottom: 2px solid; /* Borda inferior */
+}
+
+/* ================================================== */
+/* Navegação dentro da seção Hero */
+/* ================================================== */
+
+.hero nav ul {
+    margin: 20px 80px 0 0; /* Margem superior de 20px e direita de 80px */
+    text-align: right; /* Alinhamento do menu à direita */
+}
+
+.hero nav li {
+    display: inline-block; /* Exibe os itens da lista em linha */
+    list-style: none; /* Remove os marcadores de lista */
+    border: 1px solid white; /* Borda branca ao redor de cada item */
+    margin-left: 15px; /* Espaçamento entre os itens */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+.hero nav a {
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo preto com 30% de opacidade */
+    padding: 16px; /* Espaçamento interno */
+    display: block; /* Faz o link ocupar toda a área do item */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-size: 12px; /* Tamanho da fonte */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+.hero nav a:hover {
+    background-color: rgba(red, green, blue, alpha); /* Cor de fundo ao passar o mouse (não definida corretamente) */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* ================================================== */
+/* Conteúdo Principal (Main) */
+/* ================================================== */
+
+main {
+    width: 80%; /* Largura do conteúdo principal */
+    margin: auto; /* Centraliza o conteúdo na página */
+    min-width: 400px; /* Largura mínima */
+    max-width: 860px; /* Largura máxima */
+}
+
+/* ================================================== */
+/* Seções dentro do Conteúdo Principal */
+/* ================================================== */
+
+section {
+    padding-top: 32px; /* Espaçamento superior */
+}
+
+/* Artigos dentro das seções */
+article {
+    background-color: white; /* Fundo branco */
+    padding: 16px; /* Espaçamento interno */
+    margin-bottom: 32px; /* Espaçamento inferior */
+}
+
+/* Títulos dos artigos */
+article h2 {
+    border-bottom: 2px solid #ccc; /* Borda inferior cinza */
+    background-color: #eee; /* Fundo cinza claro */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 0; /* Remove a margem superior */
+}
+
+/* ================================================== */
+/* Botão (Classe .btn) */
+/* ================================================== */
+
+.btn {
+    background-color: #cdc7c3; /* Cor de fundo cinza */
+    display: inline-block; /* Exibe o botão como um bloco inline */
+    padding: 12px; /* Espaçamento interno */
+    border-radius: 6px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
