@@ -15,4 +15,5 @@ Hello!
 Here, I used CSS and HTML5 again to create this page, aiming to reinforce and practice the basic concepts.
 I’m working on some front-end focused projects to stay updated and improve my skills. :D
 
-![image](https://github.com/user-attachments/assets/4fadd188-bbbf-4eff-9023-eee5c2e68b52)
+![image](https://github.com/user-attachments/assets/8ee518e2-5057-4332-8205-b4ff0a83552b)
+
