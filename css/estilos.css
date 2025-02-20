@@ -126,3 +126,17 @@ article h2 {
     border-radius: 6px; /* Bordas arredondadas */
     text-decoration: none; /* Remove o sublinhado padrão */
 }
+
+
+/* ================================================== */
+/* (Classe .rodape) */
+/* ================================================== */
+
+.rodape{
+
+    color: white; /* Define a cor do texto como branco */
+    background-color: #6b6c68; /* Define a cor de fundo do rodapé como um tom de cinza escuro (#6b6c68) */
+    text-align: center; /* Centraliza o texto horizontalmente dentro do rodapé */
+    padding: 30px;   /* Adiciona um espaçamento interno de 30 pixels (ajuste o valor se necessário, pois está escrito "30x") */
+    text-shadow: 2px 2px 2px black;  /* Aplica um efeito de sombra ao texto: 2px de deslocamento horizontal e vertical, com 2px de desfoque e cor preta */
+}
